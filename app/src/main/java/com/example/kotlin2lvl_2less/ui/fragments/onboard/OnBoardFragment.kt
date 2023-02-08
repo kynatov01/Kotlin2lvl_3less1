@@ -8,7 +8,7 @@ import androidx.core.view.isVisible
 import androidx.navigation.fragment.findNavController
 import androidx.viewpager2.widget.ViewPager2
 import com.example.kotlin2lvl_2less.databinding.FragmentOnBoardBinding
-import com.example.kotlin2lvl_2less.ui.adapters.OnBoardViewPagerAdapter
+import com.example.kotlin2lvl_2less.ui.adapter.OnBoardViewPagerAdapter
 import com.example.kotlin2lvl_2less.utils.PreferenceHelper
 
 class OnBoardFragment : Fragment() {
