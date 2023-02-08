@@ -13,7 +13,7 @@
         <action
             android:id="@+id/action_onBoardFragment_to_noteAppFragment"
             app:destination="@id/noteAppFragment"
-            app:popUpTo="@id/nav_graph"
+            app:popUpTo="@id/nav_graph.xml"
             app:popUpToInclusive="true"/>
     </fragment>
     <fragment
