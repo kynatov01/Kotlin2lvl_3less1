@@ -2,7 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.fragments.onboard.OnBoardFragment">
 
@@ -10,7 +10,7 @@
         android:id="@+id/view_pager2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#302D2D" />
+        android:background="@color/grey" />
 
     <Button
         android:id="@+id/next_button"
@@ -25,9 +25,10 @@
         android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="130dp"
         android:background="#00000000"
-        android:text="@string/start"
+        android:text="@string/starttowork"
         android:textColor="@color/orange"
         android:visibility="visible" />
 
